@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>S Figura Slim</title>
+<meta name="description" content="S Figura Slim – dietary food supplement capsules with L-Carnitine, Lepidium, Collagen, Moringa and Reishi Mushroom.">
+<link rel="icon" href="assets/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f2ec; --card: #fffdf9; --ink: #2b2118; --muted: #6f6256;
+    --gold: #a8792f; --line: #e5dccf;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; line-height: 1.6; }
+  img { max-width: 100%; display: block; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 28px 0 8px; text-align: center; }
+  header img { width: 220px; margin: 0 auto; border-radius: 8px; }
+  h1, h2 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; color: var(--ink); }
+  .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; padding: 32px 0 56px; }
+  .hero img { border-radius: 16px; box-shadow: 0 20px 50px rgba(60,40,20,.12); }
+  .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.1; margin-bottom: 12px; }
+  .tag { color: var(--gold); letter-spacing: .14em; text-transform: uppercase; font-size: .8rem; font-weight: 500; margin-bottom: 10px; }
+  .hero p { color: var(--muted); margin-bottom: 18px; }
+  .pill { display: inline-block; border: 1px solid var(--gold); color: var(--gold); padding: 6px 16px; border-radius: 999px; font-size: .9rem; }
+  section { padding: 48px 0; border-top: 1px solid var(--line); }
+  section h2 { font-size: 2rem; text-align: center; margin-bottom: 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .card h3 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.35rem; color: var(--gold); margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: .92rem; }
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .gallery img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 12px; }
+  .use { max-width: 640px; margin: 0 auto; }
+  .use li { margin: 0 0 10px 20px; color: var(--muted); }
+  .use strong { color: var(--ink); }
+  footer { padding: 32px 0 48px; text-align: center; color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line); }
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; gap: 24px; text-align: center; }
+    .gallery { grid-template-columns: 1fr 1fr; }
+    .gallery img:last-child { grid-column: span 2; aspect-ratio: 2/1; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="assets/logo-full.png" alt="S Figura Slim logo">
+  </header>
+
+  <div class="hero">
+    <img src="assets/product-hero.jpg" alt="S Figura Slim bottle, 30 capsules">
+    <div>
+      <div class="tag">Dietary Food Supplement</div>
+      <h1>S Figura Slim</h1>
+      <p>A daily capsule formula combining L-Carnitine, Lepidium (Maca), Collagen, Moringa and Reishi Mushroom — five carefully selected ingredients in one convenient capsule, designed to support your balanced lifestyle.</p>
+      <span class="pill">30 Capsules</span>
+    </div>
+  </div>
+
+  <section>
+    <h2>Key Ingredients</h2>
+    <div class="grid">
+      <div class="card"><h3>L-Carnitine</h3><p>An amino acid derivative naturally found in the body, popular in active lifestyle routines.</p></div>
+      <div class="card"><h3>Lepidium</h3><p>Lepidium meyenii (Maca), a root traditionally used in the Andes for centuries.</p></div>
+      <div class="card"><h3>Collagen</h3><p>A structural protein widely used in beauty and wellness supplements.</p></div>
+      <div class="card"><h3>Moringa</h3><p>Nutrient-rich leaves of the Moringa oleifera tree.</p></div>
+      <div class="card"><h3>Reishi Mushroom</h3><p>Ganoderma lucidum, a mushroom valued in traditional Asian practice.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="assets/bottle.jpg" alt="S Figura Slim bottle">
+      <img src="assets/label.jpg" alt="Product label with ingredients">
+      <img src="assets/reishi.jpg" alt="Reishi mushroom">
+    </div>
+  </section>
+
+  <section>
+    <h2>How to Use</h2>
+    <ul class="use">
+      <li><strong>Recommended use:</strong> Take 1 capsule daily with water, or as directed on the package.</li>
+      <li>Do not exceed the recommended daily dose.</li>
+      <li>Store in a cool, dry place out of reach of children.</li>
+      <li>Not recommended for pregnant or breastfeeding women. Consult your doctor if you have a medical condition or are taking medication.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Food supplements should not be used as a substitute for a varied, balanced diet and a healthy lifestyle.<br>
+    This product is not intended to diagnose, treat, cure or prevent any disease.</p>
+    <p style="margin-top:12px">&copy; 2026 S Figura Slim</p>
+  </footer>
+</div>
+</body>
+</html>
