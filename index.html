@@ -33,8 +33,7 @@
   .card h3 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.35rem; color: var(--gold); margin-bottom: 6px; }
   .card p { color: var(--muted); font-size: .92rem; }
   .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-  .gallery img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 12px; }
-  .label { margin-top: 16px; width: 100%; border-radius: 12px; border: 1px solid var(--line); background: #fff; }
+  .gallery img { width: 100%; border-radius: 12px; }
   .info { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
   .info ul { list-style: none; }
   .info li { color: var(--muted); font-size: .95rem; padding: 6px 0; border-bottom: 1px solid var(--line); }
@@ -45,8 +44,7 @@
   footer { padding: 32px 0 48px; text-align: center; color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line); }
   @media (max-width: 760px) {
     .hero { grid-template-columns: 1fr; gap: 24px; text-align: center; }
-    .gallery { grid-template-columns: 1fr 1fr; }
-    .gallery img:last-child { grid-column: span 2; aspect-ratio: 2/1; }
+    .gallery { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; }
   }
 </style>
 </head>
@@ -80,11 +78,10 @@
   <section>
     <h2>Gallery</h2>
     <div class="gallery">
-      <img src="assets/bottle.jpg" alt="S Figura Slim bottle">
-      <img src="assets/figure.jpg" alt="S Figura Slim label artwork">
-      <img src="assets/reishi.jpg" alt="Reishi mushroom">
+      <img src="assets/bottle-front.jpg" alt="S Figura Slim bottle, front">
+      <img src="assets/bottle-left.jpg" alt="S Figura Slim bottle, usage and warnings side">
+      <img src="assets/bottle-right.jpg" alt="S Figura Slim bottle, ingredients side">
     </div>
-    <img class="label" src="assets/label-full.jpg" alt="Full S Figura Slim product label">
   </section>
 
   <section>
