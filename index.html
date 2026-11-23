@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>S Figura Slim</title>
 <meta name="description" content="S Figura Slim – dietary food supplement capsules with L-Carnitine, Lepidium, Collagen, Moringa and Reishi Mushroom.">
-<link rel="icon" href="assets/logo-mark.png">
+<link rel="icon" href="assets/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -18,7 +18,7 @@
   img { max-width: 100%; display: block; }
   .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
   header { padding: 28px 0 8px; text-align: center; }
-  header img { width: 220px; margin: 0 auto; border-radius: 8px; }
+  header img { width: 260px; margin: 0 auto; mix-blend-mode: multiply; }
   h1, h2 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; color: var(--ink); }
   .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; padding: 32px 0 56px; }
   .hero img { border-radius: 16px; box-shadow: 0 20px 50px rgba(60,40,20,.12); }
@@ -34,6 +34,11 @@
   .card p { color: var(--muted); font-size: .92rem; }
   .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
   .gallery img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 12px; }
+  .label { margin-top: 16px; width: 100%; border-radius: 12px; border: 1px solid var(--line); background: #fff; }
+  .info { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .info ul { list-style: none; }
+  .info li { color: var(--muted); font-size: .95rem; padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .info li:last-child { border-bottom: 0; }
   .use { max-width: 640px; margin: 0 auto; }
   .use li { margin: 0 0 10px 20px; color: var(--muted); }
   .use strong { color: var(--ink); }
@@ -48,7 +53,7 @@
 <body>
 <div class="wrap">
   <header>
-    <img src="assets/logo-full.png" alt="S Figura Slim logo">
+    <img src="assets/logo-new.png" alt="S Figura Slim logo">
   </header>
 
   <div class="hero">
@@ -76,19 +81,40 @@
     <h2>Gallery</h2>
     <div class="gallery">
       <img src="assets/bottle.jpg" alt="S Figura Slim bottle">
-      <img src="assets/label.jpg" alt="Product label with ingredients">
+      <img src="assets/figure.jpg" alt="S Figura Slim label artwork">
       <img src="assets/reishi.jpg" alt="Reishi mushroom">
     </div>
+    <img class="label" src="assets/label-full.jpg" alt="Full S Figura Slim product label">
   </section>
 
   <section>
     <h2>How to Use</h2>
-    <ul class="use">
-      <li><strong>Recommended use:</strong> Take 1 capsule daily with water, or as directed on the package.</li>
-      <li>Do not exceed the recommended daily dose.</li>
-      <li>Store in a cool, dry place out of reach of children.</li>
-      <li>Not recommended for pregnant or breastfeeding women. Consult your doctor if you have a medical condition or are taking medication.</li>
-    </ul>
+    <div class="info">
+      <div class="card">
+        <h3>Recommended Use</h3>
+        <ul>
+          <li>Take 1 capsule daily, in the morning on an empty stomach, with a glass of water.</li>
+          <li>Do not exceed the recommended daily dose.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Warnings</h3>
+        <ul>
+          <li>This is a food supplement, not a medicine.</li>
+          <li>Not to be used by pregnant women.</li>
+          <li>Keep out of reach of children.</li>
+          <li>If you have any medical condition, consult your healthcare provider before use.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Storage</h3>
+        <ul>
+          <li>Store in a cool, dry place away from direct sunlight.</li>
+          <li>Keep the lid tightly closed.</li>
+          <li>Keep out of reach of children.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <footer>
